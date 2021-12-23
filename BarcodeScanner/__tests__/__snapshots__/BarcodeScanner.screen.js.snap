@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Barcode Scanner screen. Should match snaphot 1`] = `
+<BarcodeScannerView
+  barcodeValue=""
+  navigation={
+    Object {
+      "getParam": [MockFunction] {
+        "calls": Array [
+          Array [
+            "tallyType",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "DSCH",
+          },
+        ],
+      },
+    }
+  }
+  onBarCodeRead={[Function]}
+  onWillBlur={[Function]}
+  onWillFocus={[Function]}
+  operationType="DSCH"
+  scanBarcode={true}
+/>
+`;

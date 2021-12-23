@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Barcode view. Should match snaphot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0, 28, 56, 0.7)",
+      "flex": 1,
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "space-between",
+      "width": "100%",
+    }
+  }
+>
+  <withNavigation(NavigationEvents)
+    onWillBlur="true"
+    onWillFocus="true"
+  />
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "borderColor": "#ffffff",
+        "borderRadius": 13.477832983625436,
+        "borderWidth": 3.369458245906359,
+        "flex": 7,
+        "height": "100%",
+        "marginTop": 11.793103860672257,
+        "width": "95%",
+      }
+    }
+  >
+    <Camera
+      androidCameraPermissionOptions={null}
+      androidRecordAudioPermissionOptions={null}
+      autoFocus={1}
+      barCodeTypes={Array []}
+      cameraId=""
+      captureAudio={false}
+      exposure={-1}
+      faceDetectionClassifications={0}
+      faceDetectionLandmarks={0}
+      faceDetectionMode={1}
+      flashMode={1}
+      focusDepth={0}
+      keepAudioSession={false}
+      maxZoom={0}
+      mirrorVideo={false}
+      notAuthorizedView={
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Camera not authorized
+          </Text>
+        </View>
+      }
+      onBarCodeRead={[MockFunction]}
+      pendingAuthorizationView={
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <ActivityIndicator
+            animating={true}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="small"
+          />
+        </View>
+      }
+      permissionDialogMessage=""
+      permissionDialogTitle=""
+      pictureSize="None"
+      playSoundOnCapture={false}
+      playSoundOnRecord={false}
+      ratio="4:3"
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderRadius": 13.477832983625436,
+          "borderWidth": 3.369458245906359,
+          "height": "100%",
+          "overflow": "hidden",
+          "width": "100%",
+        }
+      }
+      type={1}
+      useCamera2Api={false}
+      useNativeZoom={false}
+      videoStabilizationMode={0}
+      zoom={0}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 3,
+        "flexDirection": "column",
+        "height": 117.93103860672257,
+        "marginTop": 16.847291229531795,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 33.69458245906359,
+          "marginLeft": "5%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 4,
+          }
+        }
+      >
+        VIN
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "borderRadius": 8.423645614765897,
+          "borderWidth": 1.6847291229531796,
+          "flexDirection": "row",
+          "width": "95%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 6,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+          underlineColorAndroid="transparent"
+          value="9783161484100"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          height={18}
+          name="camera"
+          width={20}
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0,
+        "marginBottom": 0,
+      }
+    }
+  >
+    <BottomBar
+      hasBackIcon={true}
+      navigation={[MockFunction]}
+      screenTitle="Tally Load"
+    />
+  </View>
+</View>
+`;
+
+exports[`Barcode view. should navigate on Press BottomBar 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0, 28, 56, 0.7)",
+      "flex": 1,
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "space-between",
+      "width": "100%",
+    }
+  }
+>
+  <withNavigation(NavigationEvents)
+    onWillBlur="true"
+    onWillFocus="true"
+  />
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "borderColor": "#ffffff",
+        "borderRadius": 13.477832983625436,
+        "borderWidth": 3.369458245906359,
+        "flex": 7,
+        "height": "100%",
+        "marginTop": 11.793103860672257,
+        "width": "95%",
+      }
+    }
+  >
+    <Camera
+      androidCameraPermissionOptions={null}
+      androidRecordAudioPermissionOptions={null}
+      autoFocus={1}
+      barCodeTypes={Array []}
+      cameraId=""
+      captureAudio={false}
+      exposure={-1}
+      faceDetectionClassifications={0}
+      faceDetectionLandmarks={0}
+      faceDetectionMode={1}
+      flashMode={1}
+      focusDepth={0}
+      keepAudioSession={false}
+      maxZoom={0}
+      mirrorVideo={false}
+      notAuthorizedView={
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Camera not authorized
+          </Text>
+        </View>
+      }
+      onBarCodeRead={[MockFunction]}
+      pendingAuthorizationView={
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <ActivityIndicator
+            animating={true}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="small"
+          />
+        </View>
+      }
+      permissionDialogMessage=""
+      permissionDialogTitle=""
+      pictureSize="None"
+      playSoundOnCapture={false}
+      playSoundOnRecord={false}
+      ratio="4:3"
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderRadius": 13.477832983625436,
+          "borderWidth": 3.369458245906359,
+          "height": "100%",
+          "overflow": "hidden",
+          "width": "100%",
+        }
+      }
+      type={1}
+      useCamera2Api={false}
+      useNativeZoom={false}
+      videoStabilizationMode={0}
+      zoom={0}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 3,
+        "flexDirection": "column",
+        "height": 117.93103860672257,
+        "marginTop": 16.847291229531795,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 33.69458245906359,
+          "marginLeft": "5%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 4,
+          }
+        }
+      >
+        VIN
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "borderRadius": 8.423645614765897,
+          "borderWidth": 1.6847291229531796,
+          "flexDirection": "row",
+          "width": "95%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 6,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+          underlineColorAndroid="transparent"
+          value="9783161484100"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          height={18}
+          name="camera"
+          width={20}
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0,
+        "marginBottom": 0,
+      }
+    }
+  >
+    <BottomBar
+      hasBackIcon={true}
+      navigation={[MockFunction]}
+      screenTitle="Tally Discharge"
+    />
+  </View>
+</View>
+`;
